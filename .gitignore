@@ -2,5 +2,5 @@
 bazel-tpl
 bazel-bin
 bazel-out
-bazel-tpl
+bazel-light-thread-pool
 bazel-testlogs
