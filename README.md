@@ -16,7 +16,7 @@
 ## 1.如何编译
 
 ```cpp
-➜ tpl bazel build //src:thread_pool
+➜ bazel build //src:thread_pool
 WARNING: Ignoring JAVA_HOME, because it must point to a JDK, not a JRE.
 WARNING: Ignoring JAVA_HOME, because it must point to a JDK, not a JRE.
 INFO: Analyzed target //src:thread_pool (36 packages loaded, 168 targets configured).
