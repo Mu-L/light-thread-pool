@@ -2,7 +2,7 @@
 
 手把手教会该线程池，可以戳这里，附：视频+文字教程。
 
-https://mp.weixin.qq.com/s/ceQoyHVMVmaXL3BNt25O4g
+[完整文档与介绍](https://hmpy6adnp5.feishu.cn/docx/BEKBdq0egoxmxNx3X3ZcHzkUnwd?pre_pathname=%2Fdrive%2Fhome%2F)
 
 这个项目的线程池是基于[Apache Arrow项目](https://github.com/apache/arrow)的衍生版本。我们将Arrow项目中复杂的核心结构——线程池——完全剥离出来，形成了这个独立的项目。由于原始的线程池与Arrow项目本身的工具有深度依赖关系，因此我们在这个项目中对线程池进行了一些深度移除和改造，以保持与原始Arrow线程池的基础功能一致。一些改动包括：
 
